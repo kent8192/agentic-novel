@@ -1,0 +1,7 @@
+services:
+  # docker-compose.ymlで定義するサービス名と合わせる
+  obsidian:
+    # このファイルは、Claude CLIに 'obsidian' という名前のツールが利用可能であることを伝えます。
+    # 実際のコンテナ設定はdocker-compose.ymlに記述されており、
+    # Dockerのサービスディスカバリ機能によってコンテナ間で通信が行われます。
+    image: mcp/obsidian
