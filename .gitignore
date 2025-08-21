@@ -1,0 +1,5 @@
+.env.*
+!.env.*.example
+!.env.*.sample
+config/
+vaults/
