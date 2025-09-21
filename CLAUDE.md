@@ -265,8 +265,9 @@ sequenceDiagram
         Gemini->>Gemini: 本文執筆（7500-10000文字）
         Gemini-->>Claude: 第Y節の本文
 
-        Claude->>MCP: 本文を保存
-        MCP->>Vault: 第X章/第Y節.md作成
+        Note over Claude: 即座に保存
+        Claude->>MCP: 本文を即座に保存
+        MCP->>Vault: 第X章/第Y節.md作成/更新
 
         Note over Claude: 章メモ更新
         Claude->>MCP: 章メモ.md更新
