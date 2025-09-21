@@ -4,3 +4,4 @@
 config/
 vaults/
 data/
+.DS_Store
